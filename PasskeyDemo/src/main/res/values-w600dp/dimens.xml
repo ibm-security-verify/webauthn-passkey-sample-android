@@ -1,0 +1,7 @@
+<!--
+  ~ Copyright contributors to the IBM Security Verify Sample App for Passkey on Android
+  -->
+
+<resources>
+    <dimen name="fab_margin">48dp</dimen>
+</resources>
