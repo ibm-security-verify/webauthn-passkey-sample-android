@@ -28,3 +28,4 @@ local.properties
 .idea/androidTestResultsUserPreferences.xml
 **/.idea/workspace.xml
 */.idea/tasks.xml
+keystore.properties
