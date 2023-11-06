@@ -1,4 +1,4 @@
-# IBM Security Verify Passkey Sample App project
+# IBM Security Verify Sample App for Passkey on Android
 
 An implementation of Android Passkeys with IBM Security Verify as the relying party FIDO service.
 
