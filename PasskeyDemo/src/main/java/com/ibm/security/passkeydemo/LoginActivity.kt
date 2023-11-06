@@ -17,6 +17,7 @@ import androidx.credentials.GetCredentialRequest
 import androidx.credentials.GetPublicKeyCredentialOption
 import androidx.credentials.PublicKeyCredential
 import com.ibm.security.relyingpartysdk.RelyingPartyClient
+import com.ibm.security.relyingpartysdk.model.AuthenticationMethod
 import com.ibm.security.relyingpartysdk.model.Token
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -86,7 +87,7 @@ class LoginActivity : AppCompatActivity() {
                         val credentialId = responseJson.getString("id")
                         val userId = responseJson.getJSONObject("response").getString("userHandle")
 
-                        relyingPartyClient.signing(
+                        relyingPartyClient.signin(
                             signature,
                             clientDataJSON,
                             authenticatorData,
